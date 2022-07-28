@@ -3,6 +3,7 @@ import Layout from "../../../components/layout/article";
 import { Title, WorkImage, Meta } from "../../../components/work";
 import Paragraph from "../../../components/paragraph";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import "../../../";
 
 const Work = () => {
 	return (
@@ -26,8 +27,8 @@ const Work = () => {
 						<span>Nextjs, Sanity</span>
 					</ListItem>
 				</List>
-				<WorkImage src="/images/alps01.png" alt="1"></WorkImage>
-				<WorkImage src="/images/alps.02.png" alt="2"></WorkImage>
+				<WorkImage src="../../../public/images/alps01.png" alt="1"></WorkImage>
+				<WorkImage src="../../../public/images/alps.02.png" alt="2"></WorkImage>
 			</Container>
 		</Layout>
 	);
