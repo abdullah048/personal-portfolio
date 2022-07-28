@@ -1,7 +1,6 @@
-import { Box, Heading, Link, Badge } from "@chakra-ui/react";
+import { Box, Heading, Link, Badge, Image } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import Image from "next/image";
 
 export const Title = ({ children }) => (
 	<Box>
@@ -21,13 +20,7 @@ export const Title = ({ children }) => (
 );
 
 export const WorkImage = ({ src, alt }) => (
-	<Image
-		width={640}
-		height={640}
-		src={src}
-		alt={alt}
-		style={{ borderRadius: "12px", mb: 4 }}
-	/>
+	<Image borderRadius="lg" w="full" mb={4} src={src} alt={alt} />
 );
 
 export const Meta = ({ children }) => (
