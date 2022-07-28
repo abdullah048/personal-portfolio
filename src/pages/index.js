@@ -83,13 +83,13 @@ export default function Home() {
 					</BioSection>
 					{/* When i complete my graduation */}
 					<BioSection>
-						<BioYear>2018-22</BioYear>
-						Completing the <strong>BSCS</strong> (Honor&apos;s) Program in the
-						University of NFC Institue of Engineering and Technology.
-					</BioSection>
-					<BioSection>
 						<BioYear>2021</BioYear>
 						Works as a freelancer.
+					</BioSection>
+					<BioSection>
+						<BioYear>2022</BioYear>
+						Completing the <strong>BSCS</strong> (Honor&apos;s) Program in the
+						University of NFC Institue of Engineering and Technology.
 					</BioSection>
 				</Section>
 				<Section delay={0.3}>
