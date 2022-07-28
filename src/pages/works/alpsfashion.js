@@ -3,7 +3,6 @@ import Layout from "../../../components/layout/article";
 import { Title, WorkImage, Meta } from "../../../components/work";
 import Paragraph from "../../../components/paragraph";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import "../../../";
 
 const Work = () => {
 	return (
