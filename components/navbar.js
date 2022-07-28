@@ -16,6 +16,7 @@ import {
 } from "@chakra-ui/react";
 import Logo from "./logo";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import ThemeToggleButton from "./theme-toggle";
 
 const LinkItem = ({ href, children, path }) => {
 	const active = path === href;
@@ -51,7 +52,7 @@ const Navbar = (props) => {
 				align="center"
 				justify="space-between">
 				<Flex align="center" mr={5}>
-					<Heading as="h1" size="lg" letterSpacing="tighter">
+					<Heading as="h1" size="lg" letterSpacing="tight">
 						<Logo />
 					</Heading>
 				</Flex>
@@ -68,18 +69,19 @@ const Navbar = (props) => {
 					<LinkItem href="https://craftzfox-biolinks.netlify.app/">
 						Bio-Links
 					</LinkItem>
-					<LinkItem href="https://github.com/abdullah048?tab=repositories">
+					<LinkItem href="https://github.com/abdullah048/personal-portfolio">
 						View Source
 					</LinkItem>
 				</Stack>
 				<Box flex={1} align="right">
+					<ThemeToggleButton />
 					<Box ml={2} display={{ base: "inline-block", md: "" }}>
 						<Menu>
 							<MenuButton
 								as={IconButton}
 								icon={<HamburgerIcon />}
 								variant="outline"
-								aria-label="options"
+								aria-label="Options"
 							/>
 							<MenuList>
 								<NextLink href="/" passHref>
@@ -94,7 +96,7 @@ const Navbar = (props) => {
 									<MenuItem as={Link}>Bio-Links</MenuItem>
 								</NextLink>
 								<NextLink
-									href={`https://github.com/abdullah048?tab=repositories`}
+									href={`https://github.com/abdullah048/personal-portfolio`}
 									passHref>
 									<MenuItem as={Link}>View Source</MenuItem>
 								</NextLink>

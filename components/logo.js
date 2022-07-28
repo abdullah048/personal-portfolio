@@ -26,7 +26,7 @@ const Logo = () => {
 					<Text
 						color={useColorModeValue("gray.800", "whiteAlpha.900")}
 						fontFamily="M PLUS Rounded 1c"
-						fontWieght="bold"
+						fontWeight="bold"
 						ml={3}>
 						Abdullah Shahbaz
 					</Text>
