@@ -1,7 +1,6 @@
 import { Box, Heading, Link, Image, Badge } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import Image from "next/image";
 
 export const Title = ({ children }) => (
 	<Box>
