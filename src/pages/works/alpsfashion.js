@@ -26,8 +26,8 @@ const Work = () => {
 						<span>Nextjs, Sanity</span>
 					</ListItem>
 				</List>
-				<WorkImage src="/images/alps01.png" alt="1"></WorkImage>
-				<WorkImage src="/images/alps.02.png" alt="2"></WorkImage>
+				<WorkImage src="/images/alps01.PNG" alt="1"></WorkImage>
+				<WorkImage src="/images/alps.02.PNG" alt="2"></WorkImage>
 			</Container>
 		</Layout>
 	);

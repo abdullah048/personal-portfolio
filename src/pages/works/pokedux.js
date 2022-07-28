@@ -25,7 +25,7 @@ const Work = () => {
 					</ListItem>
 				</List>
 				<WorkImage src="/images/pokedux.jpeg" alt="1"></WorkImage>
-				<WorkImage src="/images/pokedux2.png" alt="2"></WorkImage>
+				<WorkImage src="/images/pokedux2.PNG" alt="2"></WorkImage>
 			</Container>
 		</Layout>
 	);
