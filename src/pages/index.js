@@ -59,7 +59,8 @@ export default function Home() {
 						faisalabad with a passion for building digital applications/services
 						and stuff he wants. He has a knack for all things, from planning and
 						designing all the way to solving real life problem witn code. When
-						not online, he loves writing on his <Link href="/">Blog</Link>.
+						not online, he loves writing on his{" "}
+						<Link href="https://craftzfox-blog.netlify.app/">Blog</Link>.
 					</Paragraph>
 					<Box align="center" my={4}>
 						<NextLink href="/works">
@@ -97,7 +98,8 @@ export default function Home() {
 						I ♥
 					</Heading>
 					<Paragraph>
-						Coding, Music, <Link href="/">Writing</Link>.
+						Coding, Music,{" "}
+						<Link href="https://craftzfox-blog.netlify.app/">Writing</Link>.
 					</Paragraph>
 				</Section>
 				<Section delay={0.3}>
