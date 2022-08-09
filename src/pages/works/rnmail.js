@@ -12,13 +12,14 @@ import Paragraph from "../../../components/paragraph";
 
 const Work = () => {
   return (
-    <Layout title="Alpsfashion">
+    <Layout title="RNMail">
       <Container>
         <Title>
-          Todo-List <Badge>2022</Badge>
+          RNmail <Badge>2022</Badge>
         </Title>
         <Paragraph>
-          An smoothly animated todo-list app. Available on both ios and android.
+          Looking for a UI design, which supports multiple themes, Here is an
+          utility app for you.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
@@ -30,13 +31,17 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React Native, Sanity</span>
+            <span>React Native</span>
           </ListItem>
         </List>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <WorkImage src="/images/todo-list.png" alt="1"></WorkImage>
-          <WorkImage src="/images/todo-list1.jpeg" alt="2"></WorkImage>
-          <WorkImage src="/images/todo-list2.jpeg" alt="3"></WorkImage>
+          <WorkImage src="/images/rnmail-sidebar.jpeg" alt="1"></WorkImage>
+          <WorkImage src="/images/rnmail-theme-picker.jpeg" alt="2"></WorkImage>
+          <WorkImage src="/images/rnmail-nord.jpeg" alt="3"></WorkImage>
+          <WorkImage
+            src="/images/rnmail-solarized-dark.jpeg"
+            alt="4"
+          ></WorkImage>
         </SimpleGrid>
       </Container>
     </Layout>

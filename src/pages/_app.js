@@ -5,14 +5,14 @@ import theme from "../../utils/theme";
 import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }) {
-	return (
-		<ChakraProvider theme={theme}>
-			<Layout router={router}></Layout>
-			<AnimatePresence exitBeforeEnter initial={true}>
-				<Component {...pageProps} key={router.route} />
-			</AnimatePresence>
-		</ChakraProvider>
-	);
+  return (
+    <ChakraProvider theme={theme}>
+      <Layout router={router}></Layout>
+      <AnimatePresence exitBeforeEnter initial={true}>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
+    </ChakraProvider>
+  );
 }
 
 export default MyApp;
