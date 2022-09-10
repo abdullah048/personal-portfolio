@@ -9,6 +9,7 @@ import timerThumbnail from "../../public/images/timer.png";
 import netflixThumbnail from "../../public/images/netflix.jpeg";
 import craftzGymThumbnail from "../../public/images/craftz-gym.png";
 import ecommerceThumbnail from "../../public/images/home.png";
+import chatThumbnail from "../../public/images/login.png";
 import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import Layout from "../../components/layout/article";
 
@@ -63,6 +64,14 @@ const Works = () => {
 							title="Ecommerce Wesbite"
 							thumbnail={ecommerceThumbnail}>
 							An Ecommerce Website with vast functionality.
+						</WorkGrid>
+					</Section>
+					<Section>
+						<WorkGrid
+							id="chat-firebase"
+							title="Chat application"
+							thumbnail={chatThumbnail}>
+							A Chat application to have fun with your friends.
 						</WorkGrid>
 					</Section>
 				</SimpleGrid>
