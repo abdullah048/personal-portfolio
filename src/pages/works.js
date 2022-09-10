@@ -8,6 +8,7 @@ import todoLisThumbnail from "../../public/images/todo-list.png";
 import timerThumbnail from "../../public/images/timer.png";
 import netflixThumbnail from "../../public/images/netflix.jpeg";
 import craftzGymThumbnail from "../../public/images/craftz-gym.png";
+import ecommerceThumbnail from "../../public/images/home.png";
 import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import Layout from "../../components/layout/article";
 
@@ -54,6 +55,14 @@ const Works = () => {
 							title="Craftz-Gym"
 							thumbnail={craftzGymThumbnail}>
 							An Online Gym.
+						</WorkGrid>
+					</Section>
+					<Section>
+						<WorkGrid
+							id="ecommerce-mern"
+							title="Ecommerce Wesbite"
+							thumbnail={ecommerceThumbnail}>
+							An Ecommerce Website with vast functionality.
 						</WorkGrid>
 					</Section>
 				</SimpleGrid>
