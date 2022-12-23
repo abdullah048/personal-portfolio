@@ -3,14 +3,14 @@ import { WorkGrid } from "../../components/grid-item";
 import Section from "../../components/section";
 import alpsThumbnail from "../../public/images/alpsfashion.jpeg";
 import portThumbnail from "../../public/images/portfolio.jpeg";
-import pokeduxThumbnail from "../../public/images/pokedux.jpeg";
+// import pokeduxThumbnail from "../../public/images/pokedux.jpeg";
 // import todoLisThumbnail from "../../public/images/todo-list.png";
 // import timerThumbnail from "../../public/images/timer.png";
 import netflixThumbnail from "../../public/images/netflix.jpeg";
 import craftzGymThumbnail from "../../public/images/craftz-gym.png";
-import ecommerceThumbnail from "../../public/images/home.png";
+// import ecommerceThumbnail from "../../public/images/home.png";
 import chatThumbnail from "../../public/images/login.png";
-import portfolioWebsiteV2Thumbnail from '../../public/images/picture-1.png'
+import portfolioWebsiteV2Thumbnail from "../../public/images/picture-1.png";
 // import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import Layout from "../../components/layout/article";
 
@@ -26,7 +26,8 @@ const Works = () => {
             <WorkGrid
               id="alpsfashion"
               title="Alpsfashion"
-              thumbnail={alpsThumbnail}>
+              thumbnail={alpsThumbnail}
+            >
               An Ecommerce site.
             </WorkGrid>
           </Section>
@@ -34,20 +35,22 @@ const Works = () => {
             <WorkGrid
               id="portfolio-website"
               title="Portfolio-Website"
-              thumbnail={portThumbnail}>
+              thumbnail={portThumbnail}
+            >
               A portfolio Website.
             </WorkGrid>
           </Section>
-          <Section>
+          {/* <Section>
             <WorkGrid id="pokedux" title="Pokedux" thumbnail={pokeduxThumbnail}>
               A Pokemon voting site.
             </WorkGrid>
-          </Section>
+          </Section> */}
           <Section>
             <WorkGrid
               id="netflix-clone"
               title="Netflix-Clone"
-              thumbnail={netflixThumbnail}>
+              thumbnail={netflixThumbnail}
+            >
               A Netflix Clone.
             </WorkGrid>
           </Section>
@@ -55,23 +58,25 @@ const Works = () => {
             <WorkGrid
               id="gym-website"
               title="Craftz-Gym"
-              thumbnail={craftzGymThumbnail}>
+              thumbnail={craftzGymThumbnail}
+            >
               An Online Gym.
             </WorkGrid>
           </Section>
-          <Section>
+          {/* <Section>
             <WorkGrid
               id="ecommerce-mern"
               title="Ecommerce Wesbite"
               thumbnail={ecommerceThumbnail}>
               An Ecommerce Website with vast functionality.
             </WorkGrid>
-          </Section>
+          </Section> */}
           <Section>
             <WorkGrid
               id="chat-firebase"
               title="Chat application"
-              thumbnail={chatThumbnail}>
+              thumbnail={chatThumbnail}
+            >
               A Chat application to have fun with your friends.
             </WorkGrid>
           </Section>
@@ -79,7 +84,10 @@ const Works = () => {
             <WorkGrid
               id="portfolioV2"
               title="Portfolio V2"
-              thumbnail={portfolioWebsiteV2Thumbnail}>An Amazing portfolio for show casing your skills</WorkGrid>
+              thumbnail={portfolioWebsiteV2Thumbnail}
+            >
+              An Amazing portfolio for show casing your skills
+            </WorkGrid>
           </Section>
         </SimpleGrid>
 
