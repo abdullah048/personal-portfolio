@@ -11,6 +11,7 @@ import craftzGymThumbnail from "../../public/images/craftz-gym.png";
 // import ecommerceThumbnail from "../../public/images/home.png";
 import chatThumbnail from "../../public/images/login.png";
 import portfolioWebsiteV2Thumbnail from "../../public/images/picture-1.png";
+import foodOrderingThumbnail from "../../public/images/food-ordering-2.png";
 // import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import Layout from "../../components/layout/article";
 
@@ -78,6 +79,15 @@ const Works = () => {
               thumbnail={chatThumbnail}
             >
               A Chat application to have fun with your friends.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id="food-ordering"
+              title="Food Ordering Application"
+              thumbnail={foodOrderingThumbnail}
+            >
+              An amazing application to order food.
             </WorkGrid>
           </Section>
           <Section>
