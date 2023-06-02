@@ -12,6 +12,8 @@ import craftzGymThumbnail from "../../public/images/craftz-gym.png";
 import chatThumbnail from "../../public/images/login.png";
 import portfolioWebsiteV2Thumbnail from "../../public/images/picture-1.png";
 import foodOrderingThumbnail from "../../public/images/food-ordering-2.png";
+import uiUxThumbnail from "../../public/images/ui-ux-app-main.png";
+import curatedListThumbnail from "../../public/images/craftz-fox-uses-main.png";
 // import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import Layout from "../../components/layout/article";
 
@@ -23,7 +25,7 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+          {/* <Section>
             <WorkGrid
               id="alpsfashion"
               title="Alpsfashion"
@@ -31,7 +33,7 @@ const Works = () => {
             >
               An Ecommerce site.
             </WorkGrid>
-          </Section>
+          </Section> */}
           <Section>
             <WorkGrid
               id="portfolio-website"
@@ -99,6 +101,22 @@ const Works = () => {
               An Amazing portfolio for show casing your skills
             </WorkGrid>
           </Section>
+          <Section>
+						<WorkGrid
+							id="ui-ux-app"
+							title="UI-UX-Template"
+							thumbnail={uiUxThumbnail}>
+							A UI-UX-Template.
+						</WorkGrid>
+					</Section>
+          <Section>
+						<WorkGrid
+							id="craftzfox-uses"
+							title="My Tech list"
+							thumbnail={curatedListThumbnail}>
+							My personal and favorite tech list.
+						</WorkGrid>
+					</Section>
         </SimpleGrid>
 
         {/*<SimpleGrid columns={[1, 1, 2]} gap={6}>
