@@ -1,4 +1,4 @@
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { ChevronRightIcon } from '@chakra-ui/icons';
 import {
   Box,
   Container,
@@ -7,29 +7,28 @@ import {
   useColorModeValue,
   Link,
   Button,
-} from "@chakra-ui/react";
-import NextLink from "next/link";
-import { BioSection, BioYear } from "../../components/bio";
-import Layout from "../../components/layout/article";
-import Paragraph from "../../components/paragraph";
-import Section from "../../components/section";
+} from '@chakra-ui/react';
+import NextLink from 'next/link';
+import { BioSection, BioYear } from '../../components/bio';
+import Layout from '../../components/layout/article';
+import Paragraph from '../../components/paragraph';
+import Section from '../../components/section';
 
 export default function Home() {
   return (
     <Layout>
       <Container>
         <Box
-          borderRadius="lg"
-          bg={useColorModeValue("whiteAplha.500", "whiteAlpha.200")}
+          borderRadius='lg'
+          bg={useColorModeValue('whiteAplha.500', 'whiteAlpha.200')}
           p={3}
-          align="center"
-          mb={6}
-        >
+          align='center'
+          mb={6}>
           Hello I&apos;m a full stack developer based in Pakistan!
         </Box>
         <Box display={{ md: `flex` }}>
           <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
+            <Heading as='h2' variant='page-title'>
               Abdullah Shahbaz
             </Heading>
             <p>Full stack cross platform developer. </p>
@@ -38,22 +37,21 @@ export default function Home() {
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
-            align="center"
-          >
+            align='center'>
             <Image
-              borderColor="whiteAlpha.900"
+              borderColor='whiteAlpha.900'
               borderWidth={2}
-              borderStyle="solid"
-              maxW="100px"
-              display="inline-block"
-              borderRadius="full"
-              src="/images/abdullah.jpeg"
-              alt="Profile image"
+              borderStyle='solid'
+              maxW='100px'
+              display='inline-block'
+              borderRadius='full'
+              src='/images/abdullah.jpeg'
+              alt='Profile image'
             />
           </Box>
         </Box>
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             Work
           </Heading>
           <Paragraph>
@@ -61,19 +59,19 @@ export default function Home() {
             faisalabad with a passion for building digital applications/services
             and stuff he wants. He has a knack for all things, from planning and
             designing all the way to solving real life problem witn code. When
-            not online, he loves writing on his{" "}
-            <Link href="https://craftzfox-blog.netlify.app/">Blog</Link>.
+            not online, he loves writing on his{' '}
+            <Link href='https://craftzfox-blog.netlify.app/'>Blog</Link>.
           </Paragraph>
-          <Box align="center" my={4}>
-            <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+          <Box align='center' my={4}>
+            <NextLink href='/works'>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
                 My Portfolio
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             Bio
           </Heading>
           <BioSection>
@@ -91,26 +89,26 @@ export default function Home() {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completing the <strong>BSCS</strong> (Honor&apos;s) Program in the
-            University of NFC Institue of Engineering and Technology.
+            Completed the <strong>BSCS</strong> (Honor&apos;s) Program in the
+            University of Engineering and Technology.
           </BioSection>
         </Section>
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             I ♥
           </Heading>
           <Paragraph>
-            Coding, Music,{" "}
-            <Link href="https://craftzfox-blog.netlify.app/">Writing</Link>.
+            Coding, Music,{' '}
+            <Link href='https://craftzfox-blog.netlify.app/'>Writing</Link>.
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             On the Web
           </Heading>
           <Paragraph>
-            Follow me on social media{" "}
-            <Link href="https://craftzfox-biolinks.netlify.app/">
+            Follow me on social media{' '}
+            <Link href='https://craftzfox-biolinks.netlify.app/'>
               @craftzFox
             </Link>
             .
