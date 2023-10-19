@@ -16,6 +16,7 @@ import uiUxThumbnail from '../../public/images/ui-ux-app-main.png';
 import curatedListThumbnail from '../../public/images/craftz-fox-uses-main.png';
 // import rnmailMain from "../../public/images/rnmail-main.jpeg";
 import chatGptThumbnail from '../../public/images/chatgpt-thumbnail.png';
+import mernDashboardThumbnail from '../../public/images/main-dashboard.png';
 import Layout from '../../components/layout/article';
 
 const Works = () => {
@@ -118,6 +119,14 @@ const Works = () => {
               title='ChatGPT Messenger'
               thumbnail={chatGptThumbnail}>
               ChatGPT Messenger clone.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id='mern-dashboard'
+              title='MERN Dashboard'
+              thumbnail={mernDashboardThumbnail}>
+              Beautiful MERN Dashboard.
             </WorkGrid>
           </Section>
         </SimpleGrid>
