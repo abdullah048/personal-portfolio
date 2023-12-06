@@ -18,6 +18,7 @@ import curatedListThumbnail from '../../public/images/craftz-fox-uses-main.png';
 import chatGptThumbnail from '../../public/images/chatgpt-thumbnail.png';
 import mernDashboardThumbnail from '../../public/images/main-dashboard.png';
 import similarityAPIThumbnail from '../../public/images/similarity-main.png';
+import weatherAppThumbnail from '../../public/images/weather-app-thumbnail.png';
 import Layout from '../../components/layout/article';
 
 const Works = () => {
@@ -136,6 +137,14 @@ const Works = () => {
               title='Similarity API Dashboard'
               thumbnail={similarityAPIThumbnail}>
               Beautiful and awesome api service.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id='weather-app'
+              title='Weather App'
+              thumbnail={weatherAppThumbnail}>
+              Beautiful and awesome weather application.
             </WorkGrid>
           </Section>
         </SimpleGrid>
