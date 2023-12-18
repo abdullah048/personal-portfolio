@@ -19,6 +19,7 @@ import chatGptThumbnail from '../../public/images/chatgpt-thumbnail.png';
 import mernDashboardThumbnail from '../../public/images/main-dashboard.png';
 import similarityAPIThumbnail from '../../public/images/similarity-main.png';
 import weatherAppThumbnail from '../../public/images/weather-app-thumbnail.png';
+import trelloCloneThumbnail from '../../public/images/trello-clone-main.png';
 import Layout from '../../components/layout/article';
 
 const Works = () => {
@@ -145,6 +146,14 @@ const Works = () => {
               title='Weather App'
               thumbnail={weatherAppThumbnail}>
               Beautiful and awesome weather application.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id='trello-clone'
+              title='Trello Clone'
+              thumbnail={trelloCloneThumbnail}>
+              Beautiful and interactive trello clone.
             </WorkGrid>
           </Section>
         </SimpleGrid>
