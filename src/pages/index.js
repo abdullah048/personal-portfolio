@@ -58,9 +58,7 @@ export default function Home() {
             Abdullah is a freelancer and a full-stack developer based in
             faisalabad with a passion for building digital applications/services
             and stuff he wants. He has a knack for all things, from planning and
-            designing all the way to solving real life problem witn code. When
-            not online, he loves writing on his{' '}
-            <Link href='https://craftzfox-blog.netlify.app/'>Blog</Link>.
+            designing all the way to solving real life problem with code.
           </Paragraph>
           <Box align='center' my={4}>
             <NextLink href='/works'>
@@ -97,10 +95,7 @@ export default function Home() {
           <Heading as='h3' variant='section-title'>
             I ♥
           </Heading>
-          <Paragraph>
-            Coding, Music,{' '}
-            <Link href='https://craftzfox-blog.netlify.app/'>Writing</Link>.
-          </Paragraph>
+          <Paragraph>Coding, Music.</Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as='h3' variant='section-title'>
