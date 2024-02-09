@@ -9,6 +9,8 @@ import similarityAPIThumbnail from '../../public/images/similarity-main.png';
 import trelloCloneThumbnail from '../../public/images/trello-clone-main.png';
 import uiUxThumbnail from '../../public/images/ui-ux-app-main.png';
 import weatherAppThumbnail from '../../public/images/weather-app-thumbnail.png';
+import pokeduxThumbnail from '../../public/images/pokedux-main.png';
+import spotifyThumbnail from '../../public/images/spotify-main.png';
 
 const Works = () => {
   return (
@@ -72,6 +74,22 @@ const Works = () => {
               title='Trello Clone'
               thumbnail={trelloCloneThumbnail}>
               Beautiful and interactive trello clone.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id='pokedux-theo'
+              title='Pokedux'
+              thumbnail={pokeduxThumbnail}>
+              Fun and interesting pokemon voting site.
+            </WorkGrid>
+          </Section>
+          <Section>
+            <WorkGrid
+              id='spotify-clone'
+              title='Spotify Clone'
+              thumbnail={spotifyThumbnail}>
+              A beautiful spotify clone with robust features.
             </WorkGrid>
           </Section>
         </SimpleGrid>
